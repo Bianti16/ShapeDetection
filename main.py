@@ -6,7 +6,7 @@ import numpy as np
 import random
 
 ## Parameters
-step = 2  # Predict shape every nth frame
+step = 2  # Detect shape every nth frame
 padding = 8  # Padding added to the matrix so that shape doesn't touch the edges
 area_min = 1000  # The minimum area required for a shape to be recognized
 rect_color = (0, 220, 0)  # Color of the bounding rectangles
